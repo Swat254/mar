@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form onsubmit="return registerUser()" enctype="multipart/form-data">
+    <h2>Sign Up</h2>
+    <input type="text" id="signupUsername" placeholder="Username" required>
+    <input type="password" id="signupPassword" placeholder="Password" required>
+    <input type="file" id="profilePic" accept="image/*" required>
+    <button type="submit">Register</button>
+    <p>Already have an account? <a href="index.html">Login</a></p>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
